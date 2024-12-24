@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'El rol de las políticas globales en la protección de los derechos humanos y los recursos naturales'")
+  BannerInterno(:subTitulo="'2. El rol de las políticas globales en la protección de los derechos humanos y los recursos naturales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     p(data-aos="fade-left").mb-4 A nivel mundial, varias normas y políticas internacionales han sido implementadas para proteger tanto los derechos humanos como los recursos naturales:
@@ -149,6 +149,33 @@
           img(src="@/assets/curso/tema2/10.png", data-aos="zoom-in").mt-4.mt-lg-0
 
     p(data-aos="fade-left").mb-5 Para que una empresa se convierta en un "buen ciudadano corporativo", es decir, que destine recursos y esfuerzos para mejorar la calidad de vida de la comunidad, en su conjunto, debe cumplir previamente con una serie de responsabilidades fundamentales. Estas responsabilidades se encuentran reflejadas en la pirámide de Carroll, un modelo que establece una jerarquía de obligaciones que las empresas deben asumir de manera progresiva:
+
+    .bg-full-width.bg-color-info
+      .p-4.p-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-10
+            h2.my-5.text-center Pirámide de Carroll
+            ImagenInfografica.color-secundario(data-aos="zoom-in")
+                template(v-slot:imagen)
+                  figure
+                    img(src='@/assets/curso/tema2/info1.png', alt='', style="max-width: 707px;").mx-auto
+
+                .bg-color-5.box-shadow.p-3(x="70%" y="14.5%" numero="+")
+                  h5 Responsabilidad filantrópica
+                  p En primer nivel, la “responsabilidad económica”; esta responsabilidad implica que la empresa debe ser rentable y generar beneficios, dado que sin ello no tendría razón de ser. En otras palabras, la viabilidad económica de la empresa, constituye la base sobre la cual se edifica la posibilidad de cumplir con otras responsabilidades sociales (Carroll, 2013). Sin la rentabilidad, no es posible ofrecer productos o servicios que la sociedad necesita.
+
+                .bg-color-5.box-shadow.p-3(x="77%" y="41%" numero="+")
+                  h5 Responsabilidad ética
+                  p El segundo nivel de la pirámide es la “responsabilidad legal”, que exige a las empresas cumplir con las leyes y reglamentaciones vigentes. El respeto por la legalidad debe ser una prioridad, ya que el cumplimiento de las normas es un imperativo para mantener la confianza pública y el buen funcionamiento de las actividades comerciales. Desafortunadamente, no son pocos los casos en que la falta de compromiso con este principio, da lugar a escándalos que afectan la reputación y el bienestar social. (Carroll, 2013)
+
+                .bg-color-5.box-shadow.p-3(x="84%" y="65%" numero="+")
+                  h5 Responsabilidad legal
+                  p La “responsabilidad ética”, hace referencia a la obligación de actuar con justicia, ser transparente y evitar causar daño. Esta responsabilidad va más allá de lo que la ley estipula y se refiere a realizar lo que es correcto y justo, incluso cuando no existe una norma legal que lo exija. Las empresas deben cumplir con las expectativas sociales y actuar conforme a los principios éticos, sin recurrir a atajos ilegales o inmorales. (Carroll, 2013)
+
+                .bg-color-5.box-shadow.p-3(x="89%" y="87%" numero="+")
+                  h5 Responsabilidad económica
+                  p Solo al cumplir con estas tres responsabilidades, las empresas pueden aspirar a ser realmente responsables con la sociedad y contribuir de manera positiva al bienestar colectivo, como se demuestra en el nivel más alto de la pirámide de Carroll: la “responsabilidad filantrópica”, que implica destinar recursos para causas sociales que mejoren la calidad de vida de las comunidades.
+
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5

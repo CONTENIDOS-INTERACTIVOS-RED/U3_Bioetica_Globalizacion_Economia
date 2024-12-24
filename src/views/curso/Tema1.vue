@@ -225,6 +225,7 @@
               img(src='@/assets/curso/tema1/14.png', alt='')
 
 
+
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
