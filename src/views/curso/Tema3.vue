@@ -56,7 +56,7 @@
               p La innovación no puede basarse únicamente en la rentabilidad inmediata. Debe ser viable a largo plazo, asegurando que las soluciones propuestas sean sostenibles económicamente y no generen un agotamiento de recursos o un daño económico posterior.
 
     #t_3_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.2] Innovación sostenible
+      h2 #[span 3.2] Tecnologías sostenibles y nuevas tendencias
 
     p(data-aos="fade-left").mb-4 Las tecnologías sostenibles se encuentran en auge en la innovación, con avances en áreas como:
 
@@ -190,6 +190,13 @@
         figure
           img(src="@/assets/curso/tema3/11.png", data-aos="zoom-in")
 
+
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -256,3 +263,206 @@ export default {
   },
 }
 </script>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'La innovación tecnológica en el desarrollo económico global presenta desafíos éticos principalmente relacionados con:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La reducción de costos en el sector tecnológico.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'El impacto de las tecnologías en la desigualdad económica y el empleo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'La rapidez con la que se desarrollan las nuevas tecnologías.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'La regulación de las patentes de productos tecnológicos.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La rapidez con la que se desarrollan las nuevas tecnologías es un desafío ético clave.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los desafíos éticos principales de la innovación tecnológica.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál de los siguientes conceptos se asocia más estrechamente con la sostenibilidad en el desarrollo económico?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'El crecimiento ilimitado sin tener en cuenta los recursos naturales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'El equilibrio entre el crecimiento económico, el bienestar social y la preservación del medio ambiente.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'El beneficio exclusivo de las grandes corporaciones.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'La explotación de recursos naturales sin considerar su agotamiento.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La sostenibilidad implica equilibrio entre economía, sociedad y medio ambiente.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el concepto de sostenibilidad en el desarrollo económico.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué principio de la bioética se centra en no dañar al medio ambiente para evitar que las futuras generaciones sufran las consecuencias de las decisiones actuales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'Autonomía', esCorrecta: false },
+              { id: 'b', texto: 'Justicia', esCorrecta: false },
+              { id: 'c', texto: 'Beneficencia', esCorrecta: false },
+              {
+                id: 'd',
+                texto: 'Responsabilidad intergeneracional',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La responsabilidad intergeneracional es clave en la bioética ambiental.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los principios de la bioética relacionados con el medio ambiente.',
+          },
+          {
+            id: 4,
+            texto:
+              'En cuanto a los derechos humanos y el desarrollo económico sostenible, ¿qué aspecto debe priorizar una política global?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Garantizar el acceso de todos los países a la tecnología de punta sin importar el impacto social.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Asegurar que las prácticas laborales sean justas y que los recursos naturales se gestionen de manera equitativa.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Fomentar el consumo sin restricciones en mercados globales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Exigir la eliminación de las normas ambientales para acelerar el crecimiento económico.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La equidad y la justicia en las prácticas laborales y la gestión de recursos son prioritarias.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los aspectos prioritarios para una política global sostenible.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál es una de las implicaciones éticas de la innovación tecnológica en el contexto del desarrollo económico global?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'El desarrollo de tecnologías debe priorizar únicamente la rentabilidad económica.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Las innovaciones deben ser evaluadas en términos de su impacto social y medioambiental, además de económico.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Las innovaciones no deben ser reguladas por gobiernos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'La innovación tecnológica no tiene ningún impacto en los derechos humanos.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La evaluación ética debe considerar el impacto social, ambiental y económico.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las implicaciones éticas de la innovación tecnológica.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

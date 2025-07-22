@@ -25,6 +25,11 @@
           img(src="@/assets/curso/tema1/2.png", data-aos="zoom-in")
 
 
+
+    p(data-aos="fade-left").mb-4 Según se ha evidenciado, la sostenibilidad abarca tres dimensiones fundamentales: 
+
+
+
     h3(data-aos="fade-left") Dimensión económica
 
     p(data-aos="fade-left") Implica la creación de riqueza y empleo, de manera que no comprometa los recursos naturales a largo plazo. Se enfoca en prácticas de producción y consumo responsables, que aseguren la viabilidad económica en el tiempo.
@@ -212,7 +217,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
             h2.mb-4(data-aos="flip-up") Casos de éxito
-            p.mb-4(data-aos="fade-right") El desarrollo económico sostenible demuestra que es posible alcanzar el crecimiento económico sin comprometer el medio ambiente ni el bienestar social. En el PDF Casos de éxito , se explorarán ejemplos destacados que ilustran cómo distintas iniciativas alrededor del mundo están logrando este equilibrio. Entre los casos, se analizará cómo Dinamarca lidera en el uso de energías renovables a través de su transformación hacia la energía eólica, la expansión de proyectos de energía solar a nivel global y en Colombia, el impacto del turismo sostenible en ecosistemas locales, los avances en agricultura sostenible y las innovaciones de empresas tecnológicas verdes como Tesla, Google y Microsoft. Estos ejemplos brindan una visión integral de cómo la sostenibilidad puede integrarse de manera efectiva en diversos sectores económicos.
+            p.mb-4(data-aos="fade-right") El desarrollo económico sostenible demuestra que es posible alcanzar el crecimiento económico sin comprometer el medio ambiente ni el bienestar social. En el PDF Casos de éxito, se explorarán ejemplos destacados que ilustran cómo distintas iniciativas alrededor del mundo están logrando este equilibrio. Entre los casos, se analizará cómo Dinamarca lidera en el uso de energías renovables a través de su transformación hacia la energía eólica, la expansión de proyectos de energía solar a nivel global y en Colombia, el impacto del turismo sostenible en ecosistemas locales, los avances en agricultura sostenible y las innovaciones de empresas tecnológicas verdes como Tesla, Google y Microsoft. Estos ejemplos brindan una visión integral de cómo la sostenibilidad puede integrarse de manera efectiva en diversos sectores económicos.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")

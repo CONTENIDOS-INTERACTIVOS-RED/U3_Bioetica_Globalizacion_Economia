@@ -258,7 +258,7 @@ export default {
     {
       termino: 'Tecnologías Emergentes',
       significado:
-        'tecnologías de última generación con el potencial de transformar industrias y sociedades, como la inteligencia artificial, la biotecnología, la nanotecnología y las energías renovables, que plantean nuevos retos éticos y sociales',
+        'tecnologías de última generación con el potencial de transformar industrias y sociedades, como la inteligencia artificial, la biotecnología, la nanotecnología y las energías renovables, que plantean nuevos retos éticos y sociales.',
     },
   ],
 }
